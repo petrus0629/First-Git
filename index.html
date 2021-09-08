@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>테스트중인 웹사이트</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  
+<div style="text-align : center;">
+
+  <img src="C:\Users\user\Desktop\web\HighSchool.jpg" width="200" />
+  <p>(경주정보고등학교 교표)</p>
+
+  <div class="accordion" id="accordionExample">
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingOne">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          이용약관 1
+        </button>
+      </h2>
+      <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <strong>첫번째로</strong> 이용자분들은 개인정보 수집을 동의해주셔야 해당 서비스를 이용할 수 있습니다.
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingTwo">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          이용약관 2
+        </button>
+      </h2>
+      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <strong>두번째로</strong> 관리자에 의하여 개인정보를 누설한게 아닌, 자의로 인해 개인정보 누설시 관리자는 그에 따른 책임을 질 수 없습니다.
+        </div>
+      </div>
+    </div>
+
+    <h1>개인정보 수집에 동의하십니까?</h1>
+    <input type="radio" name="gener" checked="checked" /> <span class="up">동의</span>&nbsp;&nbsp; <input type="radio"     name="gener"/> <span class="up">비동의</span>
+
+
+  <body>
+    <script src="script.js"></script>
+  </body>
+</html>
